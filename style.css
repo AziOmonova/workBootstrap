@@ -1,0 +1,61 @@
+html{
+	box-sizing: border-box;
+}
+
+*::before,
+*::afer{
+	box-sizing: inherit;
+}
+body{
+	margin: 0;
+}
+.home{
+	background-image: url(img/pattern.png),url(img/layer-city.png);
+	background-repeat: repeat,no-repeat;
+	background-position: top,bottom;
+	}
+.check{
+	width: 290px;
+	height: 26px;
+	background-color: #E2EAED;
+}
+.left{
+	width: 45%;
+    margin-left: 130px;
+}
+.right{
+	width: 38%;
+}
+.img{
+	content: "";
+	position: relative;
+}
+
+.img1{
+	position: absolute;
+	top: 22%;
+	left: -7%;
+	z-index: -1;
+}
+.imgleft{
+	width: 40%;
+	margin-left: 30px;
+
+}
+.imgright{
+	width: 40%;
+}
+.price{
+	width: 300px;
+}
+.people{
+     width: 50%;
+   
+}
+.people-text{
+	width: 45%;
+}
+.appimg{
+	transform: translateY(60px);
+}
+

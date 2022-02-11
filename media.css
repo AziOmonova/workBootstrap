@@ -1,0 +1,52 @@
+@media (max-width: 1000px){
+.people {
+  
+  width: 70%;
+}
+.people-text {
+  
+  width: 70%;
+}
+}
+
+@media (max-width: 900px){
+.left {
+  
+  margin-left: 50px;
+}
+
+
+.start {
+   width:80%;
+   }
+ .end{
+ 	width: 60%;
+ }
+}
+@media (max-width: 800px){
+.left {
+   width:90%;
+   margin-left: 20px;
+}
+.right{
+	width: 60%;
+	margin: auto;
+}
+
+}
+@media (max-width: 700px){
+.carddiv {
+    width: 100%;
+	}
+	.people {
+  
+  width: 100%;
+}
+.people-text {
+  
+  width: 100%;
+}
+	
+}
+
+	
